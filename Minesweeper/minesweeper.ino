@@ -66,12 +66,12 @@ Game_state game_state;
 //define special characters (flag, neutral face)
 const byte flag[] PROGMEM=
 {
-	8, 5,
-	B01100000,
+	3, 5,
+	B11000000,
 	B11100000,
 	B10100000,
-	B00100000,
-	B00100000,
+	B10000000,
+	B10000000,
 };
 
 const byte neutral[] PROGMEM=
